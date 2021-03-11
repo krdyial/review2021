@@ -16,6 +16,6 @@ Cube of a = a*a*a Square of a = a*a
         int num= scan.nextInt();
         int result= num<10 && num>=0 ? num*num*num : num*num;
         System.out.println(result);
-
+        scan.close();
     }
 }
