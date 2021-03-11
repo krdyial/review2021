@@ -16,12 +16,22 @@ public class IfStatement02 {
         //Do not use for Strings == Because that is for primitive datas.
         // Because we need equality of Values and Addresses as well
 
+        //1.Way:
+        if (password.equals(expected)){
+            System.out.println("The password is true");
+        }if (!(password.equals(expected))){
+            System.out.println("The password is false");
+        }
+
+
+        // 2.WAy:
         if (password.equals(expected)){
             System.out.println("The password is true");
         }else{
             System.out.println("The password is false");
         }
-scan.close();
 
+        scan.close();
     }
+
 }
