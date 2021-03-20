@@ -15,6 +15,9 @@ public class MethodCreation03 {
       --> if the data types are different change the order
 
       NOTE: changing return type, changing access modifier, changing method body does not solve that problem
+
+      Method Overloading: if you create methods whose names are same but parameters are different
+                          it means you are method overloading.
        */
 
     public static void add(){
