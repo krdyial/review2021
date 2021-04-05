@@ -23,12 +23,12 @@ public class Animals {
         Animals a1= new Animals();
         System.out.println("Height of a1: "+a1.height);
         System.out.println("Mammal of a1: "+a1.mammal);
-        System.out.println("Name of a1: "+a1.name);
+        System.out.println("TextFile of a1: "+a1.name);
 
         System.out.println("===========================");
         Animals a2 = new Animals("Cat",60);
 
-        System.out.println("Name of a2: "+ a2.name);
+        System.out.println("TextFile of a2: "+ a2.name);
         System.out.println("Mammal of a2: "+a2.mammal);
         System.out.println("Height of a2: "+a2.height);
 
